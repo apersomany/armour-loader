@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "armour-loader",
+	"version": "${version}",
+	"name": "Armour Loader",
+	"icon": "assets/armour_loader/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.aperso.loader.armour.ArmourLoader"
+		]
+	},
+	"mixins": [
+		"armour-loader.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
