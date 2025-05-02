@@ -1,14 +1,17 @@
 {
-  "required": true,
-  "package": "dev.aperso.loader.armour.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "client": [
-    "HumanoidArmorLayerMixin",
-    "HumanoidModelMixin",
-    "ItemInHandRendererMixin",
-    "PlayerModelAccessor"
-  ]
+	"required": true,
+	"package": "dev.aperso.loader.armour.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"HumanoidArmorLayerMixin",
+		"HumanoidModelMixin",
+		"ItemInHandRendererMixin",
+		"PlayerModelAccessor"
+	],
+	"mixins": [
+		"ResourceLocationMixin"
+	]
 }
